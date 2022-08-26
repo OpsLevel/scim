@@ -2,11 +2,11 @@ package scim
 
 import (
 	"encoding/json"
+	f "github.com/elimity-com/scim/filter"
 	"log"
 	"net/http"
 
 	"github.com/elimity-com/scim/errors"
-	f "github.com/elimity-com/scim/internal/filter"
 	"github.com/elimity-com/scim/schema"
 )
 
